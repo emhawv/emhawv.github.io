@@ -1,0 +1,158 @@
+@import url("https://use.typekit.net/ppn2yln.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap.css");
+
+body {
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+}
+
+header {
+    margin: 0;
+}
+
+h1 {
+    font-family: "operetta-12", serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+h1::first-letter {
+    font-feature-settings: "swsh";
+}
+
+main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 17% 32% auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 5%;
+}
+
+#column-left {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#column-right {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+h2 {
+    font-family: "bebas neue", sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 0.15em;
+    margin-top: 3.43em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: "lato-thin", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+}
+
+#strengths h3 {
+    font-family: "jubilat", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+}
+
+#strengths h3:first-of-type {
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+h4 {
+    font-family: "jubilat", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 1em;
+    max-height: 1.2em;
+    padding-right: 1em;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-top: 2em;
+    padding: 0;
+}
+
+#work-experience ul, #strengths ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+#work-experience li, #strengths li {
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+dd {
+    font-family: "Jubilat", serif;
+    font-style: italic;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    margin-top: 0.2em;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+a:active {
+    color: lightsteelblue;
+}
+
+a:visited {
+    color: slategrey;
+}
+
+footer {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: lightgrey;
+    margin: 150px 20% 0 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid lightgrey;
+}
