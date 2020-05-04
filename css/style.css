@@ -76,21 +76,28 @@ header em {
     letter-spacing: 0.02em;
 }
 
-.sidebar a {
+a {
     display: block;
     color: #89c9d1;
     padding: 16px;
   }
 
-.sidebar a:visited {
+p a {
+    display: inline;
+    color: #89c9d1;
+    padding: 0;
+  }
+
+
+a:visited {
     color: #e79cc4
 }
 
-.sidebar a:hover {
+a:hover {
     color: #ee2758
 }
 
-.sidebar a:active {
+a:active {
     color: #f8638d
 }
 
@@ -135,6 +142,7 @@ section h4 {
 section p {
     text-transform: none;
     letter-spacing: normal;
+    line-height: 1.5em;
 }
 
 ul {
@@ -150,17 +158,43 @@ li {
     padding: 0.5em 1em 0.5em 2em;
 }
 
-.quote {
+.call-action {
+    margin-top: 125%;
+    padding-top: 20px;
+    border-top: solid #fdca9f 1px;
+}
+
+.call-action a {
     font-style: italic;
-    color: #ee2758;
+    color: #f8a79e;
 }
 
-.introduction img {
-    max-width: 80%;
-}
-
-.memeification img {
+#introduction img {
     max-width: 100%;
+    padding-bottom: 20px;
+}
+
+#introduction .legend {
+    max-width: 70%;
+}
+
+#sexwrap img {
+    justify-content: right;
+    max-width: 12%;
+}
+
+#memeification img {
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+#memeification .branding {
+    max-width: 50%;
+    padding-top: 50px;
+}
+
+#memeification .legend {
+    max-width: 50%;
     padding-top: 50px;
 }
 
@@ -173,8 +207,8 @@ footer {
     background-color: cornsilk;
     color: #f8a79e;
     margin: 50px 15% 0 15%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 footer p {
